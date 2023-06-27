@@ -4,7 +4,7 @@ import Tilt from "react-parallax-tilt";
 import { FiDownloadCloud } from "react-icons/fi";
 import { Button } from "@mui/material";
 
-const resumeURL = "https://drive.google.com/file/d/1ahsxf-lCTFqqF5amadW83EXtsNSWt8G5/view?usp=sharing";
+const resumeURL = "https://drive.google.com/file/d/18j2kWMwWrh1WP8ZbVg5Nr6dxQ_i822tU/view?usp=sharing";
 
 const HomeBottomPage = () => {
 
@@ -16,19 +16,18 @@ const HomeBottomPage = () => {
       <div className="introduction">
         <div className="intro-text">
           <p>
-            I am Abhinav Kumar, currently interning at{" "}
-            <span style={{ color: "#32CD30" }}>JP Morgan Chase</span> as a
-            Software Engineer
+            I am Ashlesha Bandgar, currently training at{" "}
+            <span style={{ color: "#32CD30" }}>FunctionUp</span> as a
+            Frontend Developer
           </p>
           <br />
           <p>
-            I love working as a <span style={{ color: "#32CD30" }}>Full Stack Developer</span> and My tech stack includes
-            NodeJs, SpringBoot, React, TypeScript. I am also familar with AWS and
-            Docker.
+            I love working as a <span style={{ color: "#32CD30" }}>Frontend Developer</span> and My tech skills includes
+            REACTJS, HTML, CSS, JAVASCRIPT. I am also familar with GitHub.
           </p>
           <br />
           <p>
-            I am also proficient in C++, Java and love <span style={{ color: "#32CD30" }}>solving problems</span> involving data structures and algorithms.
+            I am also proficient in C and love <span style={{ color: "#32CD30" }}>solving problems</span> involving data structures and algorithms(basics).
           </p>
           <br />
           <p>

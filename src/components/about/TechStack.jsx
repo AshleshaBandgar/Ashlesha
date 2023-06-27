@@ -1,16 +1,12 @@
 import React, { useState,useEffect } from "react";
 import { Card } from "semantic-ui-react";
 import {
-  DiJava,
   DiJavascript1,
   DiReact,
-  DiNodejs,
-  DiMongodb,
+  DiHtml5,
+  DiGit
 } from "react-icons/di";
-import { CgCPlusPlus } from "react-icons/cg";
-import { SiMysql } from "react-icons/si";
-import { FaAws, FaDocker } from "react-icons/fa";
-import {SiSpringboot} from "react-icons/si";
+import {FaCss3Alt} from "react-icons/Fa"
 
 const TechStack = () => {
   const [width,setWidth] = useState(1200);
@@ -38,18 +34,6 @@ const TechStack = () => {
         <Card.Group itemsPerRow={width > 768 ? 5 : 2}>
           <Card raised className="item">
             {" "}
-            <CgCPlusPlus
-              style={{ width: "100%", height: "auto", color: "black" }}
-            />{" "}
-          </Card>
-          <Card raised className="item">
-            {" "}
-            <DiJava
-              style={{ width: "100%", height: "auto", color: "red" }}
-            />{" "}
-          </Card>
-          <Card raised className="item">
-            {" "}
             <DiJavascript1
               style={{ width: "100%", height: "auto", color: "#FFC300" }}
             />{" "}
@@ -62,38 +46,20 @@ const TechStack = () => {
           </Card>
           <Card raised className="item">
             {" "}
-            <DiNodejs
-              style={{ width: "100%", height: "auto", color: "green" }}
+            <DiHtml5
+              style={{ width: "100%", height: "auto", color: "#61DBFB" }}
             />{" "}
           </Card>
           <Card raised className="item">
             {" "}
-            <DiMongodb
-              style={{ width: "100%", height: "auto", color: "green" }}
+            <FaCss3Alt
+              style={{ width: "100%", height: "auto", color: "#000000" }}
             />{" "}
           </Card>
           <Card raised className="item">
             {" "}
-            <SiMysql
-              style={{ width: "100%", height: "auto", color: "#00758f" }}
-            />{" "}
-          </Card>
-          <Card raised className="item">
-            {" "}
-            <SiSpringboot
-              style={{ width: "100%", height: "auto", color: "green" }}
-            />{" "}
-          </Card>
-          <Card raised className="item">
-            {" "}
-            <FaAws
-              style={{ width: "100%", height: "auto", color: "orange" }}
-            />{" "}
-          </Card>
-          <Card raised className="item">
-            {" "}
-            <FaDocker
-              style={{ width: "100%", height: "auto", color: "#0db7ed" }}
+            <DiGit
+              style={{ width: "100%", height: "auto", color: "#000000" }}
             />{" "}
           </Card>
         </Card.Group>

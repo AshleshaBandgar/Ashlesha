@@ -10,20 +10,6 @@ import { HiMailOpen } from "react-icons/hi";
 import { IconContext } from "react-icons";
 
 const Contact = () => {
-  // const contactLinks = [
-  //   {
-  //     site : "Linkedin",
-  //     link : "https://www.linkedin.com/in/abhinav-kumar-904254195/",
-  //   },
-  //   {
-  //     site : "Github",
-  //     link : "https://github.com/Abhinav2011",
-  //   },
-  //   {
-  //     site : "Twitter",
-  //     link : "https://twitter.com/Abhinav36650041",
-  //   },
-  // ]
   
   return (
     <IconContext.Provider value={{ color: "#32CD30", size: "50px" }}>
@@ -46,7 +32,7 @@ const Contact = () => {
             <nav aria-label="main mailbox folders">
               <List>
                 <ListItem disablePadding  className="contact-list-item">
-                  <ListItemButton  href="https://www.linkedin.com/in/abhinav-kumar-904254195/" target="_blank">
+                  <ListItemButton  href="https://www.linkedin.com/in/ashlesha-bandgar-653978192/" target="_blank">
                     <ListItemIcon>
                       <BsLinkedin className="contact-icon" />
                     </ListItemIcon>
@@ -54,19 +40,11 @@ const Contact = () => {
                   </ListItemButton>
                 </ListItem>
                 <ListItem disablePadding className="contact-list-item">
-                  <ListItemButton href="https://github.com/Abhinav2011" target="_blank">
+                  <ListItemButton href="https://github.com/AshleshaBandgar" target="_blank">
                     <ListItemIcon>
                       <BsGithub className="contact-icon" />
                     </ListItemIcon>
                     <ListItemText primary="Github" className="contact-text" />
-                  </ListItemButton>
-                </ListItem>
-                <ListItem disablePadding className="contact-list-item">
-                  <ListItemButton href="https://twitter.com/Abhinav36650041" target="_blank">
-                    <ListItemIcon>
-                      <BsTwitter className="contact-icon" />
-                    </ListItemIcon>
-                    <ListItemText primary="Twitter" className="contact-text" />
                   </ListItemButton>
                 </ListItem>
                 <ListItem disablePadding className="contact-list-item">
@@ -79,7 +57,7 @@ const Contact = () => {
                       <HiMailOpen className="contact-icon" />
                     </ListItemIcon>
                     <ListItemText
-                      primary="Mail (abhi32eee@gmail.com)"
+                      primary="Mail (ashlesha.bandgar29@gmail.com)"
                       className="contact-text"
                     />
                   </ListItemButton>

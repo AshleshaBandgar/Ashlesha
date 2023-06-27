@@ -3,7 +3,7 @@ import { Button, Card, Image} from "semantic-ui-react";
 import { BsGithub } from "react-icons/bs";
 
 const SingleProjectCard = ({ projectDetails }) => {
-  const { title, description, image, projectLink } = projectDetails;
+  const { title, description, image, projectLink, deploymentLink } = projectDetails;
 
   return (
     <Card className="single-card">
@@ -17,6 +17,13 @@ const SingleProjectCard = ({ projectDetails }) => {
           <Button className="single-card-button">
             <div className="github-button">
               <BsGithub style={{marginRight:"1rem"}}/> Github Link
+            </div>
+          </Button>
+        </a>
+        <a href={deploymentLink}>
+          <Button className="single-card-button">
+            <div className="github-button">
+              <BsGithub style={{marginRight:"1rem"}}/> Deployment Link
             </div>
           </Button>
         </a>

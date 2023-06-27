@@ -16,7 +16,7 @@ const HomePage = () => {
                 position: "static",
               }}
             >
-              HI
+              Hii
             </h1>
             <h1
               style={{
@@ -33,7 +33,7 @@ const HomePage = () => {
                   textDecoration: "",
                 }}
               >
-                ABHINAV KUMAR
+                ASHLESHA BANDGAR
               </span>
             </h1>
           </div>

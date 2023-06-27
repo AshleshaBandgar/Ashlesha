@@ -15,21 +15,19 @@ import FaceRoundedIcon from "@mui/icons-material/FaceRounded";
 import HomeRoundedIcon from "@mui/icons-material/HomeRounded";
 import FolderSharedRoundedIcon from "@mui/icons-material/FolderSharedRounded";
 import CallRoundedIcon from "@mui/icons-material/CallRounded";
-import { BsGithub } from "react-icons/bs";
+
 
 const pages = [
   { text: "Home", href: "/" },
   { text: "About", href: "/about" },
   { text: "Projects", href: "/projects" },
   { text: "Contact", href: "/contact" },
-  { text: "Fork Project", href: "https://github.com/Abhinav2011/my-portfolio" },
 ];
 const pageIcons = [
   HomeRoundedIcon,
   FaceRoundedIcon,
   FolderSharedRoundedIcon,
-  CallRoundedIcon,
-  BsGithub,
+  CallRoundedIcon
 ];
 
 const Header = () => {
@@ -62,7 +60,7 @@ const Header = () => {
               textDecoration: "none",
             }}
           >
-            Abhinav Kumar
+            Ashlesha Bandgar
           </Typography>
 
           <Box sx={{ flexGrow: 1, display: { xs: "flex", md: "none" } }}>
@@ -120,7 +118,7 @@ const Header = () => {
               textDecoration: "none",
             }}
           >
-            Abhinav Kumar
+            Ashlesha Bandgar
           </Typography>
           <Box
             justifyContent="flex-end"

@@ -22,16 +22,16 @@ const AboutInfo = () => {
           <p style={{ textAlign: "justify" }}>
             Hi people, I am{" "}
             <span style={{ color: "#32CD30", fontWeight: "bold" }}>
-              Abhinav Kumar
+              Ashlesha Bandgar
             </span>{" "}
-            from Jamshedpur,India. I did my B.Tech in Information Technology
+            from Sangli,India. I did my B.E in Electrical Branch
             from{" "}
             <span style={{ color: "#32CD30", fontWeight: "bold" }}>
-              VIT Vellore
+              Padmabhooshan Vasantraodada Patil Institute of Technology.
             </span>{" "}
-            and currently I'm interning at{" "}
+            and currently I'm training at{" "}
             <span style={{ color: "#32CD30", fontWeight: "bold" }}>
-              JP Morgan Chase & Co
+              FunctionUp as a frontend Developer
             </span>
             .
           </p>
@@ -42,15 +42,15 @@ const AboutInfo = () => {
             <ul>
               <li>
                 <BsFillArrowRightSquareFill style={{ display: "inline" }} />{" "}
-                Watching Table Tennis
+                UI Design
               </li>
               <li>
                 <BsFillArrowRightSquareFill style={{ display: "inline" }} />{" "}
-                Gardening
+                Drawing
               </li>
               <li>
                 <BsFillArrowRightSquareFill style={{ display: "inline" }} />{" "}
-                Travelling
+                Watching Cooking Videos
               </li>
             </ul>
           </p>
@@ -75,7 +75,7 @@ const AboutInfo = () => {
       <div className="github-graph">
         <GitHubCalendar
           style={{ marginBottom: "50px" }}
-          username="Abhinav2011"
+          username="AshleshaBandgar"
           blockMargin={6}
           blockSize={12}
           fontSize={16}
