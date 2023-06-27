@@ -1,6 +1,10 @@
 # My portfolio
 
-My portfolio built using React JS
+My portfolio built using 
+1.React JS
+2.HTML
+3.CSS
+4.React-Libraries
 
 ![App Screenshot](src/assets/githubImage.jpg)
 
@@ -8,20 +12,21 @@ My portfolio built using React JS
 
 https://my-portfolio-abhinav2011.vercel.app/
 
+##Table of Contents
+1.About Me
+2.Projects
+3.Skills
+4.Contact
 
 ## Run Locally
 
 Clone the project
 
 ```bash
-  git clone https://github.com/Abhinav2011/my-portfolio
+  git clone https://github.com/AshleshaBandgar/Ashlesha.git
 ```
 
 Go to the project directory
-
-```bash
-  cd my-portfolio
-```
 
 Install dependencies
 
@@ -35,16 +40,4 @@ Start the server
   npm start
 ```
 
-## Run using Docker
 
-Pull docker image
-
-```bash
-docker pull abhinav2011/abhinav-portfolio
-```
-
-Run the docker image
-
-```bash
-docker run -p 5173:5173 abhinav2011/abhinav-portfolio
-```
