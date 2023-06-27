@@ -1,43 +1,38 @@
-# My portfolio
+<h2>My portfolio</h2>
 
-My portfolio built using 
-1.React JS
-2.HTML
-3.CSS
-4.React-Libraries
-
+<h3>My portfolio built using</h3>
+  <ol>
+    <li>React JS</li>
+    <li>HTML</li>
+    <li>CSS</li>
+    <li>React-libraries</li>
+  </ol>
+  
 ![App Screenshot](src/assets/githubImage.jpg)
 
-## Demo
+<h2>Table of Contents</h2>
+ <ol>
+    <li>About Me</li>
+    <li>Projects</li>
+    <li>Skills</li>
+    <li>Contact</li>
+  </ol>
+  
+<h2>Run Locally</h2>
 
-https://my-portfolio-abhinav2011.vercel.app/
+<h2>Clone the project</h2>
 
-##Table of Contents
-1.About Me
-2.Projects
-3.Skills
-4.Contact
+  <link>git clone https://github.com/AshleshaBandgar/Ashlesha.git</link>
 
-## Run Locally
 
-Clone the project
+<h3>Go to the project directory</h3>
 
-```bash
-  git clone https://github.com/AshleshaBandgar/Ashlesha.git
-```
+<h4>Install dependencies</h4>
 
-Go to the project directory
+  <h5>npm install</h5>
 
-Install dependencies
+<h4>Start the server</h4>
 
-```bash
-  npm install
-```
-
-Start the server
-
-```bash
-  npm start
-```
+  <h5>npm start</h5>
 
 
