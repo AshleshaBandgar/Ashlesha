@@ -28,6 +28,8 @@
 <h3>Go to the project directory</h3>
 
 <h4>Install dependencies</h4>
+<h2>Deployment Link:</h2>
+<link>https://649afc5ae296a60090f95ef6--jocular-croissant-14c32a.netlify.app/</link>
 
   <h5>npm install</h5>
 
